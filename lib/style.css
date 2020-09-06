@@ -1,0 +1,98 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Rye', cursive;
+}
+
+form {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+li {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+} 
+
+p {
+    margin: 0;
+}
+
+h1 {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+i {
+    transition: all .2s;
+}
+
+.background {
+    background-image: url("../pics/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.todo-container {
+    background-image: url("../pics/old-paper.png"); 
+    background-size: contain; /* constrain image within container, stretch/scale as needed */
+    background-position: center center; /* centered horizontally and vertically */
+    background-repeat: no-repeat; /* don't repeat */
+    height: 30rem;
+    padding: 50px;
+    text-align: center;
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
+
+
+/* Input */
+#add-button {
+    background-color: #fff;
+    color: #04C900;
+    height: 28px;
+    width: 28px;
+    margin-right: -4px;
+}
+
+#add-button,
+#add-button:focus {
+    border: none;
+    outline: none;
+}
+
+#add-button:hover {
+    color: #05f200;
+}
+
+.remove-button {
+    color: #b80000;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.remove-button:hover {
+    cursor: pointer;
+    color: #E30404;
+}
+
+#tasks {
+    width: 18rem;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#task-input,
+#task-input:hover,
+#task-input:focus {
+    outline: none;
+    border: none;
+    padding: 2px;
+}
