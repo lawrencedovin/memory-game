@@ -1,6 +1,10 @@
 .col {
     height: 300px;
-    margin: 20px;
+}
+
+.matching-container--top,
+.matching-container--bottom {
+    padding: 2rem;
 }
 
 .blue {
