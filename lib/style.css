@@ -1,10 +1,11 @@
-.col {
-    height: 300px;
+.card-container {
+    height: 15rem;
 }
 
-.matching-container--top,
-.matching-container--bottom {
-    padding: 2rem;
+.card {
+    height: 10rem;
+    width: 7.5rem;
+    background: blue;
 }
 
 .blue {
