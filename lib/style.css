@@ -8,6 +8,11 @@
     background: black;
 }
 
+.matching-container--top,
+.matching-container--bottom{
+    margin: 0;
+}
+
 /* .blue {
     background: #007BFF;
 }
