@@ -5,10 +5,10 @@
 .card {
     height: 10rem;
     width: 7.5rem;
-    background: blue;
+    background: black;
 }
 
-.blue {
+/* .blue {
     background: #007BFF;
 }
 
@@ -26,4 +26,4 @@
 
 .purple {
     background: #563D7C;
-}
+} */
