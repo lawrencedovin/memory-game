@@ -1,9 +1,8 @@
 body {
   height: 100vh;
   background-size: cover;
-  /* background: url(../pics/yugioh-1.jpg)
-    no-repeat center center fixed; */
-
+  background: url(../pics/fantasy-background.jpg)
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -65,7 +64,9 @@ body {
 }
 
 #container-score-reset{
-  margin-top: 5rem;
+  margin-top: 4rem;
+  color: #fff;
+  font-family: 'MedievalSharp', cursive;
 }
 
 #best-score,
@@ -83,5 +84,11 @@ body {
 }
 
 #btn-reset {
-  color: #fff;
+  background: #3c6fad;
+  border: none;
+  text-transform: uppercase;
+}
+
+#btn-reset:hover {
+  background: #2b4f7b;
 }
