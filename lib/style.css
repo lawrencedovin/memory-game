@@ -69,8 +69,13 @@ body {
 }
 
 #best-score,
-#current-score {
+#current-score,
+#best-score-text {
   font-size: 1.5rem;
+}
+
+#best-score-text {
+  margin-right: 6px;
 }
 
 #current-score {
