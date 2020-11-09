@@ -92,3 +92,35 @@ body {
 #btn-reset:hover {
   background: #2b4f7b;
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+  .flip-card,
+  .card-image {
+    height: 6rem;
+    width: 4em;
+  }
+}
+
+@media only screen and (min-width: 1950px) and (max-width: 2469px) {
+  .matching-container--top,
+  .matching-container--bottom 
+  {
+    padding: 0 15rem;
+  }
+  .row {
+    zoom: 1.1; 
+    -moz-transform: scale(1.1); 
+  }
+}
+
+@media screen and (min-width: 2470px) /* XL Screens */ {
+  .matching-container--top,
+  .matching-container--bottom 
+  {
+    padding: 0 25rem;
+  }
+  .row {
+    zoom: 1.2; 
+    -moz-transform: scale(1.2); 
+  }
+}
