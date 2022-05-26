@@ -65,7 +65,7 @@ body {
 
 #container-score-reset{
   margin-top: 3rem;
-  color: #fff;
+  color: #6200ff;
   font-family: 'MedievalSharp', cursive;
 }
 
@@ -84,13 +84,14 @@ body {
 }
 
 #btn-reset {
-  background: #3c6fad;
+  color: #fff;
+  background: #6200ff;
   border: none;
   text-transform: uppercase;
 }
 
 #btn-reset:hover {
-  background: #2b4f7b;
+  background: #4401b0;
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1300px) {
